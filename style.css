@@ -1,0 +1,110 @@
+.navbar{
+    font-weight: bolder;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.jumbotron{
+    padding-top: 50px;
+
+}
+
+.jumbotron img{
+    float: right;
+    margin-right: 250px;
+}
+
+.jumbotron h1 p{
+    float: right;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+
+.jumbotron h1{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.jumbotron p{
+    color: white;
+    margin-left: 65px;
+}
+
+svg{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#about{
+    clear: both;
+    margin-top: 100px;
+}
+
+#about h2{
+    padding-bottom: 25px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 165px;
+}
+
+.col-4{
+    text-align: justify;
+    margin-right: 30px;
+}
+
+
+#portofolio{
+    background-color: #273036;
+}
+
+#portofolio h2{
+    color: white;
+    font-size: 45px;
+    margin-top: -90px;
+    float: right;
+    margin-right: 190px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.card{
+    width: 300px;
+    height: 550px;
+    background-color:#273036;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.card a{
+    float: right;
+}
+
+#contact{
+    margin-top: -100px;
+}
+
+#contact h2{
+    font-size: 40px;
+    margin-top: 0px;
+    float: left;
+    margin-left: 190px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+form{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+

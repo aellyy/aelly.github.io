@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Background Video</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+
+        }
+
+        .vidbg{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: #273036;
+            color: white;
+            position: relative;
+            min-height: 100vh;
+            font-size: 5em;
+            overflow: hidden;
+        }
+
+        .videobg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+            /* z-index untuk memundurkan gambar */
+            z-index: -1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="vidbg">
+        <hi>WELCOME</hi>
+        <video class="videobg" src="Source/Video/ocean.webm" autoplay muted loop></video>
+    </div>
+
+    <script>
+        // pindah ke halaman lain selama 5 detik
+        setTimeout(function(){
+            window.location.href="index.html"; //akan pindah otomatis ke index2.html
+        }, 3000); //satuannya ms, 3000ms = 3s
+    </script>
+</body>
+</html>
